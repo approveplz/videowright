@@ -50,8 +50,13 @@ The JSON retains the session ID, answer, elapsed time, turns, token/cache usage,
 and reported list-price equivalent. Subscription usage is not a separate charge
 merely because the CLI reports `total_cost_usd`. Report unknown billing as unknown.
 Use the returned session ID with `--resume` only for a closely related follow-up.
-Do not repeatedly send the same artifacts. For implementation, explicitly assign
-file ownership and expand tools only as needed. Keep review-only runs read-only.
+Do not repeatedly send the same artifacts. Keep the tool set stable for related
+review follow-ups to preserve cached context. Start implementation from the
+approved storyboard and concise findings, rather than carrying all review images
+and history into a different tool set. Explicitly assign file ownership. Keep
+review-only runs read-only. On resumed sessions, modelUsage and total_cost_usd
+can be cumulative while usage describes the current invocation. Do not sum
+cumulative totals.
 
 ## Prototype, narration, and export
 
