@@ -1,3 +1,17 @@
+# Alan’s Videowright fork
+
+This is the maintained `approveplz/videowright` fork, based on upstream
+`scosman/videowright` main at `df9146f5f8c68d4c67839772419dba96586f007a`.
+`origin` points to Alan’s fork and `upstream` retains the original source.
+The existing export reload fix is preserved. MIT licensing remains unchanged.
+GitHub still records the repository’s fork relationship.
+
+The focus is clear technical lessons with causal diagrams and efficient local
+production. See [the lesson workflow](docs/lesson-workflow.md). Personal lessons,
+narration, and private delivery assets live locally under `explainers/` and are
+not automatically published with library changes.
+
+## Upstream project documentation
 
 # Videowright 
 ### Create a video with a prompt
