@@ -5,8 +5,7 @@ that model. Choose the learner’s goal before choosing an animation style.
 
 ## Brief and storyboard
 
-Reuse the user’s stated goal and background. Ask one compact round of questions
-only when the answers would materially change the script. For a developer who
+The shared **videowright** skill owns questions to the user. For a developer who
 wants general understanding, prioritize the mechanism and a transferable lesson.
 A request to operate a deployment needs more operational detail.
 
@@ -52,7 +51,7 @@ merely because the CLI reports `total_cost_usd`. Report unknown billing as unkno
 Use the returned session ID with `--resume` only for a closely related follow-up.
 Do not repeatedly send the same artifacts. Keep the tool set stable for related
 review follow-ups to preserve cached context. Start implementation from the
-approved storyboard and concise findings, rather than carrying all review images
+reviewed storyboard and concise findings, rather than carrying all review images
 and history into a different tool set. Explicitly assign file ownership. Keep
 review-only runs read-only. On resumed sessions, modelUsage and total_cost_usd
 can be cumulative while usage describes the current invocation. Do not sum
